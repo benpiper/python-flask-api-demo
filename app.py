@@ -16,7 +16,7 @@ class Hello(Resource):
 
 	def get(self):
 
-		return jsonify({'message': 'Use one of the following methods: square, factorial, prime, or charcount'})
+		return jsonify({'message': 'Use one of the following methods: square, factorial, prime, or count'})
 
 # Calculate the square of a number
 
